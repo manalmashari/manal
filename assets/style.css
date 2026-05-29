@@ -69,3 +69,18 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;background:rad
     padding:10px;
   }
 }
+
+.logo-track img{
+  height:70px;
+  width:auto;
+  object-fit:contain;
+  padding:8px 20px;
+  border-radius:16px;
+  background:#fff;
+  flex-shrink:0;
+  transition:.3s;
+}
+
+.logo-track img:hover{
+  transform:translateY(-4px);
+}
