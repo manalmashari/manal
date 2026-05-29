@@ -84,3 +84,17 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;background:rad
 .logo-track img:hover{
   transform:translateY(-4px);
 }
+
+.footer-credit{
+  position:absolute;
+  right:10px;
+  bottom:8px;
+  font-size:8px;
+  opacity:.15;
+  z-index:10;
+}
+
+.footer-credit a{
+  color:#777;
+  text-decoration:none;
+}
