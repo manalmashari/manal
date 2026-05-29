@@ -98,3 +98,10 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;background:rad
   color:#777;
   text-decoration:none;
 }
+
+.footer-contact a{
+  display:block;
+  color:var(--gold2);
+  font-size:22px;
+  font-weight:900;
+}
