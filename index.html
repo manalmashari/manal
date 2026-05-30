@@ -229,50 +229,57 @@
 </section>
   </main>
 
-  <section class="request-section" id="request">
-    <div class="request-wrap reveal">
-      <div class="request-title">
-        <p class="eyebrow">طلب تعاون</p>
-        <h2>ابدأ حملتك معنا</h2>
-        <p>املأ النموذج وسيصل الطلب مباشرة إلى بريد فريق منال ومشاري.</p>
-      </div>
-
-      <form class="luxury-form" action="https://formsubmit.co/contact@manalmeshari.com" method="POST">
-        <input type="hidden" name="_subject" value="طلب تعاون جديد من موقع منال ومشاري">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
-
-        <div class="form-row">
-          <label>
-            <span>الاسم</span>
-            <input type="text" name="name" placeholder="اكتب الاسم" required>
-          </label>
-          <label>
-            <span>البريد الإلكتروني</span>
-            <input type="email" name="email" placeholder="example@email.com" required>
-          </label>
-        </div>
-
-        <div class="form-row">
-          <label>
-            <span>اسم الشركة</span>
-            <input type="text" name="company" placeholder="اسم العلامة التجارية">
-          </label>
-          <label>
-            <span>رقم التواصل</span>
-            <input type="tel" name="phone" placeholder="رقم الجوال">
-          </label>
-        </div>
-
-        <label>
-          <span>تفاصيل التعاون</span>
-          <textarea name="message" rows="6" placeholder="اكتب فكرة الحملة أو نوع التعاون المطلوب" required></textarea>
-        </label>
-
-        <button type="submit">إرسال الطلب</button>
-      </form>
+ <section class="request-section" id="request">
+  <div class="request-wrap reveal">
+    <div class="request-title">
+      <p class="eyebrow">طلب تعاون</p>
+      <h2>ابدأ حملتك معنا</h2>
+      <p>املأ النموذج وسيصل الطلب مباشرة إلى بريد فريق منال ومشاري.</p>
     </div>
-  </section>
+
+<form class="luxury-form" action="https://api.web3forms.com/submit" method="POST">
+
+  <!-- Web3Forms -->
+  <input type="hidden" name="access_key" value="ضع_المفتاح_الجديد_هنا">
+  <input type="hidden" name="subject" value="طلب تعاون جديد من موقع منال ومشاري">
+  <input type="hidden" name="from_name" value="موقع منال ومشاري">
+
+  <div class="form-row">
+    <label>
+      <span>الاسم</span>
+      <input type="text" name="name" placeholder="اكتب الاسم" required>
+    </label>
+
+    <label>
+      <span>البريد الإلكتروني</span>
+      <input type="email" name="email" placeholder="example@email.com" required>
+    </label>
+  </div>
+
+  <div class="form-row">
+    <label>
+      <span>اسم الشركة</span>
+      <input type="text" name="company" placeholder="اسم العلامة التجارية">
+    </label>
+
+    <label>
+      <span>رقم التواصل</span>
+      <input type="tel" name="phone" placeholder="رقم الجوال">
+    </label>
+  </div>
+
+  <label>
+    <span>تفاصيل التعاون</span>
+    <textarea name="message" rows="6" placeholder="اكتب فكرة الحملة أو نوع التعاون المطلوب" required></textarea>
+  </label>
+
+  <button type="submit">إرسال الطلب</button>
+
+</form>
+
+  </div>
+</section>
+
 
   <footer class="luxury-footer">
     <div class="footer-glow"></div>
